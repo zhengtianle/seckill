@@ -1,0 +1,443 @@
+2019-08-11 11:18:18.407  INFO 15770 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 15770 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 11:18:18.429  INFO 15770 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 11:18:23.228  INFO 15770 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 11:18:23.234  INFO 15770 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 11:18:23.365  INFO 15770 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-08-11 11:18:24.636  INFO 15770 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$855ee79d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 11:18:25.426  INFO 15770 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 11:18:25.564  INFO 15770 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 11:18:25.565  INFO 15770 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 11:18:25.823  INFO 15770 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 11:18:25.824  INFO 15770 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6956 ms
+2019-08-11 11:18:26.374  INFO 15770 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 11:18:26.919  INFO 15770 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 11:18:29.807  INFO 15770 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 11:18:30.153  WARN 15770 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 11:18:31.035  INFO 15770 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 11:18:31.039  INFO 15770 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 15.039 seconds (JVM running for 17.386)
+2019-08-11 11:18:32.717  INFO 15770 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=e307dfeb125d4217a6331c967500dd36] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 11:18:32.790  INFO 15770 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 11:18:32.792  INFO 15770 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 11:18:32.832  INFO 15770 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 39 ms
+2019-08-11 11:40:50.633  INFO 15770 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 11:40:50.964  INFO 15770 --- [Thread-33] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 11:40:51.071  INFO 15770 --- [Thread-33] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 11:40:57.301  INFO 23105 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 23105 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 11:40:57.318  INFO 23105 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 11:40:58.966  INFO 23105 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 11:40:58.968  INFO 23105 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 11:40:59.005  INFO 23105 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-08-11 11:40:59.412  INFO 23105 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54296c56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 11:40:59.753  INFO 23105 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 11:40:59.799  INFO 23105 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 11:40:59.799  INFO 23105 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 11:40:59.908  INFO 23105 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 11:40:59.909  INFO 23105 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2404 ms
+2019-08-11 11:41:00.090  INFO 23105 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 11:41:00.206  INFO 23105 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 11:41:00.960  INFO 23105 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 11:41:01.106  WARN 23105 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 11:41:01.579  INFO 23105 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 11:41:01.582  INFO 23105 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 6.029 seconds (JVM running for 9.707)
+2019-08-11 11:41:30.427  INFO 23105 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=e307dfeb125d4217a6331c967500dd36] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 11:41:30.439  INFO 23105 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 11:41:30.439  INFO 23105 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 11:41:30.477  INFO 23105 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2019-08-11 11:41:48.495  INFO 23105 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 11:41:48.558  INFO 23105 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 11:41:48.563  INFO 23105 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 11:41:53.436  INFO 23498 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 23498 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 11:41:53.444  INFO 23498 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 11:41:55.194  INFO 23498 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 11:41:55.198  INFO 23498 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 11:41:55.258  INFO 23498 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2019-08-11 11:41:56.279  INFO 23498 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f0b21ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 11:41:56.886  INFO 23498 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 11:41:56.943  INFO 23498 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 11:41:56.944  INFO 23498 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 11:41:57.127  INFO 23498 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 11:41:57.128  INFO 23498 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3592 ms
+2019-08-11 11:41:57.458  INFO 23498 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 11:41:57.628  INFO 23498 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 11:41:58.364  INFO 23498 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 11:41:58.548  WARN 23498 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 11:41:59.361  INFO 23498 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 11:41:59.370  INFO 23498 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 7.108 seconds (JVM running for 9.134)
+2019-08-11 11:42:10.921  INFO 23498 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=e307dfeb125d4217a6331c967500dd36] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 11:42:10.933  INFO 23498 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 11:42:10.933  INFO 23498 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 11:42:10.955  INFO 23498 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2019-08-11 12:01:29.629  INFO 23498 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 12:01:29.967  INFO 23498 --- [Thread-17] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 12:01:30.100  INFO 23498 --- [Thread-17] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 12:01:37.725  INFO 29947 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 29947 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 12:01:37.783  INFO 29947 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 12:01:40.632  INFO 29947 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 12:01:40.649  INFO 29947 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 12:01:40.813  INFO 29947 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-08-11 12:01:42.279  INFO 29947 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b01d55fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 12:01:43.288  INFO 29947 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 12:01:43.479  INFO 29947 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 12:01:43.480  INFO 29947 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 12:01:43.999  INFO 29947 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 12:01:44.002  INFO 29947 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5850 ms
+2019-08-11 12:01:44.789  INFO 29947 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 12:01:45.288  INFO 29947 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 12:01:46.606  INFO 29947 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 12:01:46.746  WARN 29947 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 12:01:47.374  INFO 29947 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 12:01:47.380  INFO 29947 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 11.47 seconds (JVM running for 13.547)
+2019-08-11 12:02:01.281  INFO 29947 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=e307dfeb125d4217a6331c967500dd36] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 12:02:01.333  INFO 29947 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 12:02:01.333  INFO 29947 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 12:02:01.360  INFO 29947 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-08-11 14:30:30.401  INFO 29947 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 14:30:30.438  INFO 29947 --- [Thread-27] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 14:30:30.439  INFO 29947 --- [Thread-27] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 16:08:46.455  INFO 13776 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 13776 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 16:08:46.460  INFO 13776 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 16:08:49.347  INFO 13776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 16:08:49.359  INFO 13776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 16:08:49.454  INFO 13776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-08-11 16:08:50.346  INFO 13776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a659b0f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 16:08:51.082  INFO 13776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 16:08:51.199  INFO 13776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 16:08:51.201  INFO 13776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 16:08:51.458  INFO 13776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 16:08:51.458  INFO 13776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4698 ms
+2019-08-11 16:08:51.722  INFO 13776 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 16:08:52.059  INFO 13776 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 16:08:53.423  INFO 13776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:08:53.631  WARN 13776 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 16:08:54.251  INFO 13776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 16:08:54.255  INFO 13776 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 10.471 seconds (JVM running for 13.322)
+2019-08-11 16:09:07.780  INFO 13776 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=e307dfeb125d4217a6331c967500dd36] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 16:09:07.825  INFO 13776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 16:09:07.826  INFO 13776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 16:09:07.854  INFO 13776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2019-08-11 16:14:37.121  INFO 13776 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:14:37.315  INFO 13776 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 16:14:37.442  INFO 13776 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 16:14:43.744  INFO 15567 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 15567 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 16:14:43.750  INFO 15567 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 16:14:47.317  INFO 15567 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 16:14:47.329  INFO 15567 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 16:14:47.426  INFO 15567 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-08-11 16:14:48.365  INFO 15567 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4fe361c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 16:14:48.952  INFO 15567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 16:14:49.017  INFO 15567 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 16:14:49.018  INFO 15567 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 16:14:49.348  INFO 15567 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 16:14:49.348  INFO 15567 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5413 ms
+2019-08-11 16:14:49.667  INFO 15567 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 16:14:49.940  INFO 15567 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 16:14:51.492  INFO 15567 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:14:51.710  WARN 15567 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 16:14:52.384  INFO 15567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 16:14:52.389  INFO 15567 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 10.197 seconds (JVM running for 13.746)
+2019-08-11 16:15:05.180  INFO 15567 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=e307dfeb125d4217a6331c967500dd36] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 16:15:05.225  INFO 15567 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 16:15:05.226  INFO 15567 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 16:15:05.257  INFO 15567 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2019-08-11 16:16:14.692  INFO 15567 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:16:14.732  INFO 15567 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 16:16:15.011  INFO 15567 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 16:16:22.362  INFO 16192 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 16192 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 16:16:22.375  INFO 16192 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 16:16:23.781  INFO 16192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 16:16:23.784  INFO 16192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 16:16:23.823  INFO 16192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-08-11 16:16:24.371  INFO 16192 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a3a62d80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 16:16:24.677  INFO 16192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 16:16:24.710  INFO 16192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 16:16:24.710  INFO 16192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 16:16:24.793  INFO 16192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 16:16:24.794  INFO 16192 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2292 ms
+2019-08-11 16:16:24.951  INFO 16192 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 16:16:25.071  INFO 16192 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 16:16:25.728  INFO 16192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:16:25.864  WARN 16192 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 16:16:26.142  INFO 16192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 16:16:26.146  INFO 16192 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 4.959 seconds (JVM running for 5.758)
+2019-08-11 16:16:36.475  INFO 16192 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=e307dfeb125d4217a6331c967500dd36] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 16:16:36.569  INFO 16192 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 16:16:36.571  INFO 16192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 16:16:36.648  INFO 16192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 77 ms
+2019-08-11 16:16:48.315  INFO 16192 --- [http-nio-8080-exec-2] c.p.seckill.controller.LoginController   : LoginVO(mobile=17863113969, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2019-08-11 16:16:48.745  INFO 16192 --- [http-nio-8080-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-08-11 16:16:48.749  INFO 16192 --- [http-nio-8080-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-08-11 16:23:40.695  INFO 16192 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:23:41.841  INFO 16192 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 16:23:41.887  INFO 16192 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 16:23:48.647  INFO 18367 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 18367 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 16:23:48.653  INFO 18367 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 16:23:50.221  INFO 18367 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 16:23:50.224  INFO 18367 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 16:23:50.258  INFO 18367 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-08-11 16:23:50.902  INFO 18367 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d2c935e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 16:23:51.265  INFO 18367 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 16:23:51.290  INFO 18367 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 16:23:51.291  INFO 18367 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 16:23:51.363  INFO 18367 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 16:23:51.364  INFO 18367 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2581 ms
+2019-08-11 16:23:51.539  INFO 18367 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 16:23:51.681  INFO 18367 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 16:23:52.467  INFO 18367 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:23:52.654  WARN 18367 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 16:23:53.103  INFO 18367 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 16:23:53.107  INFO 18367 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 5.162 seconds (JVM running for 5.912)
+2019-08-11 16:24:13.428  INFO 18367 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=88adc744108c4ce4b973173730296b6b] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 16:24:13.435  INFO 18367 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 16:24:13.436  INFO 18367 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 16:24:13.470  INFO 18367 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2019-08-11 16:24:23.419  INFO 18367 --- [http-nio-8080-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-08-11 16:24:23.420  INFO 18367 --- [http-nio-8080-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-08-11 16:27:17.958  INFO 18367 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:27:19.098  INFO 18367 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 16:27:19.111  INFO 18367 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 16:27:24.322  INFO 19530 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 19530 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 16:27:24.329  INFO 19530 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 16:27:25.491  INFO 19530 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 16:27:25.493  INFO 19530 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 16:27:25.518  INFO 19530 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-08-11 16:27:25.918  INFO 19530 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d77381ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 16:27:26.182  INFO 19530 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 16:27:26.207  INFO 19530 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 16:27:26.208  INFO 19530 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 16:27:26.308  INFO 19530 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 16:27:26.309  INFO 19530 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1867 ms
+2019-08-11 16:27:26.457  INFO 19530 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 16:27:26.550  INFO 19530 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 16:27:27.230  INFO 19530 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:27:27.354  WARN 19530 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 16:27:27.718  INFO 19530 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 16:27:27.721  INFO 19530 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 4.448 seconds (JVM running for 5.649)
+2019-08-11 16:27:39.222  INFO 19530 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=175ec566ae444dd1a22cb7487f980e50] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 16:27:39.234  INFO 19530 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 16:27:39.234  INFO 19530 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 16:27:39.253  INFO 19530 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-08-11 16:27:39.834  INFO 19530 --- [http-nio-8080-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-08-11 16:27:39.835  INFO 19530 --- [http-nio-8080-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-08-11 16:29:23.037  INFO 19530 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:29:24.197  INFO 19530 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 16:29:24.205  INFO 19530 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 16:29:28.511  INFO 20185 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 20185 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 16:29:28.521  INFO 20185 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 16:29:29.778  INFO 20185 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 16:29:29.781  INFO 20185 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 16:29:29.806  INFO 20185 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-08-11 16:29:30.214  INFO 20185 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cae1f1d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 16:29:30.501  INFO 20185 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 16:29:30.529  INFO 20185 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 16:29:30.531  INFO 20185 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 16:29:30.640  INFO 20185 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 16:29:30.641  INFO 20185 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2009 ms
+2019-08-11 16:29:30.816  INFO 20185 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 16:29:30.930  INFO 20185 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 16:29:31.499  INFO 20185 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:29:31.611  WARN 20185 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 16:29:31.881  INFO 20185 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 16:29:31.884  INFO 20185 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 4.035 seconds (JVM running for 4.728)
+2019-08-11 16:29:56.696  INFO 20185 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=341929341c014deabd061f610c75be64] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 16:29:56.725  INFO 20185 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 16:29:56.725  INFO 20185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 16:29:56.749  INFO 20185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2019-08-11 16:29:57.362  INFO 20185 --- [http-nio-8080-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-08-11 16:29:57.364  INFO 20185 --- [http-nio-8080-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-08-11 16:31:22.250  INFO 20185 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 16:31:23.371  INFO 20185 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 16:31:23.376  INFO 20185 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 17:29:23.118  INFO 29315 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 29315 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 17:29:23.122  INFO 29315 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 17:29:24.707  INFO 29315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 17:29:24.710  INFO 29315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 17:29:24.736  INFO 29315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-08-11 17:29:25.179  INFO 29315 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5490092a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 17:29:25.566  INFO 29315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 17:29:25.602  INFO 29315 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 17:29:25.603  INFO 29315 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 17:29:25.725  INFO 29315 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 17:29:25.725  INFO 29315 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2514 ms
+2019-08-11 17:29:25.885  INFO 29315 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 17:29:25.968  INFO 29315 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 17:29:26.548  INFO 29315 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 17:29:26.651  WARN 29315 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 17:29:26.912  INFO 29315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 17:29:26.915  INFO 29315 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 4.384 seconds (JVM running for 5.133)
+2019-08-11 17:31:07.193  INFO 29315 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1553011200; token=341929341c014deabd061f610c75be64] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-08-11 17:31:07.206  INFO 29315 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 17:31:07.207  INFO 29315 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 17:31:07.223  INFO 29315 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-08-11 17:31:07.427  INFO 29315 --- [http-nio-8080-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-08-11 17:31:07.428  INFO 29315 --- [http-nio-8080-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-08-11 18:02:09.285  INFO 29315 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 18:02:10.772  INFO 29315 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 18:02:10.814  INFO 29315 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 22:00:21.566  INFO 14019 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 14019 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 22:00:21.584  INFO 14019 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 22:00:28.175  INFO 14019 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 22:00:28.194  INFO 14019 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 22:00:28.365  INFO 14019 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-08-11 22:00:31.521  INFO 14019 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dbbacd64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 22:00:33.110  INFO 14019 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 22:00:34.182  INFO 14019 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 22:00:34.183  INFO 14019 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 22:00:52.093  INFO 14019 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 22:00:52.096  INFO 14019 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 30034 ms
+2019-08-11 22:08:47.914  INFO 16528 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 16528 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 22:08:47.937  INFO 16528 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 22:08:53.721  INFO 16528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 22:08:53.724  INFO 16528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 22:08:53.869  INFO 16528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-08-11 22:08:54.914  INFO 16528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$843f5ce3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 22:08:55.547  INFO 16528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 22:08:55.632  INFO 16528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 22:08:55.632  INFO 16528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 22:08:56.278  INFO 16528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 22:08:56.278  INFO 16528 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7979 ms
+2019-08-11 22:08:56.662  INFO 16528 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 22:08:57.189  INFO 16528 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 22:08:57.883  WARN 16528 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userArgumentResolver' defined in file [/home/zhengtianle/workspace/idea-workspace/seckill/target/classes/cn/personal/seckill/config/UserArgumentResolver.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [/home/zhengtianle/workspace/idea-workspace/seckill/target/classes/cn/personal/seckill/service/UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [cn/personal/seckill/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2019-08-11 22:08:57.896  INFO 16528 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 22:08:57.923  INFO 16528 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-08-11 22:08:57.927  INFO 16528 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-08-11 22:08:57.956  INFO 16528 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-11 22:08:57.993 ERROR 16528 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userArgumentResolver' defined in file [/home/zhengtianle/workspace/idea-workspace/seckill/target/classes/cn/personal/seckill/config/UserArgumentResolver.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [/home/zhengtianle/workspace/idea-workspace/seckill/target/classes/cn/personal/seckill/service/UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [cn/personal/seckill/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at cn.personal.seckill.SeckillApplication.main(SeckillApplication.java:10) [classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [/home/zhengtianle/workspace/idea-workspace/seckill/target/classes/cn/personal/seckill/service/UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [cn/personal/seckill/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [cn/personal/seckill/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 61 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingClientConfiguration$LettucePoolingClientConfigurationBuilder.<init>(LettucePoolingClientConfiguration.java:91) ~[spring-data-redis-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingClientConfiguration.builder(LettucePoolingClientConfiguration.java:50) ~[spring-data-redis-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory.createBuilder(LettuceConnectionConfiguration.java:141) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.createBuilder(LettuceConnectionConfiguration.java:104) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.getLettuceClientConfiguration(LettuceConnectionConfiguration.java:90) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.redisConnectionFactory(LettuceConnectionConfiguration.java:74) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$99591b2d.CGLIB$redisConnectionFactory$0(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$99591b2d$$FastClassBySpringCGLIB$$5d2175db.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$99591b2d.redisConnectionFactory(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 62 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.pool2.impl.GenericObjectPoolConfig
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_191]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_191]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_191]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_191]
+	... 78 common frames omitted
+
+2019-08-11 22:17:29.782  INFO 18949 --- [main] cn.personal.seckill.SeckillApplication   : Starting SeckillApplication on ztl-manjaro with PID 18949 (/home/zhengtianle/workspace/idea-workspace/seckill/target/classes started by zhengtianle in /home/zhengtianle/workspace/idea-workspace/seckill)
+2019-08-11 22:17:29.806  INFO 18949 --- [main] cn.personal.seckill.SeckillApplication   : No active profile set, falling back to default profiles: default
+2019-08-11 22:17:33.979  INFO 18949 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-11 22:17:34.006  INFO 18949 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-11 22:17:34.288  INFO 18949 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166ms. Found 0 repository interfaces.
+2019-08-11 22:17:35.678  INFO 18949 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$921b2971] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-11 22:17:36.244  INFO 18949 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 22:17:36.292  INFO 18949 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 22:17:36.292  INFO 18949 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-11 22:17:36.430  INFO 18949 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 22:17:36.430  INFO 18949 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6451 ms
+2019-08-11 22:17:36.782  INFO 18949 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-11 22:17:37.365  INFO 18949 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-11 22:17:39.624  INFO 18949 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 22:17:39.814  WARN 18949 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-08-11 22:17:40.986  INFO 18949 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 22:17:41.002  INFO 18949 --- [main] cn.personal.seckill.SeckillApplication   : Started SeckillApplication in 14.078 seconds (JVM running for 16.345)
+2019-08-11 22:17:57.526  INFO 18949 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-11 22:17:57.527  INFO 18949 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-11 22:17:57.597  INFO 18949 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 69 ms
+2019-08-11 22:32:08.461  INFO 18949 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 22:32:09.024  INFO 18949 --- [Thread-33] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-08-11 22:32:09.552  INFO 18949 --- [Thread-33] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- 使用thymeleaf，配置相应的 -->
+<html xmlns:th="http://www.thymeleaf.org">  <!-- th!!! 命名空间使用 -->
+<head>
+    <meta charset="UTF-8"/><!--<meta charset="UTF-8" />  thymeleaf模板引擎默认是Template modes:HTML5解析的，所以解析比较严格。  -->
+    <title>登录</title>
+    <!-- thymeleaf引入静态资源的方式，@加大括弧    "/" 代表static路径-->
+    <!-- jquery -->
+    <!-- <script type="text/javascript" th:src="@{/js/jequery.min.js}"></script> -->
+    <script type="text/javascript" th:src="@{/jquery-validation/lib/jquery-1.11.1.js}"></script>
+    <!-- bootstrap -->
+    <!-- <link type="text/css" rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"/> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"/>
+    <script type="text/javascript" th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+    <!--jquery-validator  -->
+    <script type="text/javascript" th:src="@{/jquery-validation/jquery.validate.min.js}"></script>
+    <!-- <script type="text/javascript" th:src="@{/jquery-validation/jquery.validate.js}"></script> -->
+    <script type="text/javascript" th:src="@{/jquery-validation/localization/messages_zh.min.js}"></script>
+    <!-- layer -->
+    <script type="text/javascript" th:src="@{/layer/layer.js}"></script>
+    <!-- md5.js -->
+    <script type="text/javascript" th:src="@{/js/md5.min.js}"></script>
+    <!-- common.js -->
+    <script type="text/javascript" th:src="@{/js/common.js}"></script>
+</head>
+<style>
+    body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+        margin-bottom: 10px;
+    }
+    .form-signin .checkbox {
+        font-weight: normal;
+    }
+    .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .form-signin .form-control:focus {
+        z-index: 2;
+    }
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+</style>
+<body>
+
+<div class="container">
+
+    <form name="loginForm" id="loginForm" method="post" class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <div class="border-bottom mb-4 mt-4 pb-2">
+
+        </div>
+        <label for="mobile" class="sr-only">Phone</label>
+        <input type="text" id="mobile" class="form-control" placeholder="Phone" required autofocus minlength="11" maxlength="11">
+        <label for="password" class="sr-only">Password</label>
+        <input type="password" id="password" class="form-control" placeholder="Password" required minlength="6" maxlength="16">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <button class="btn btn-lg btn-primary btn-block" type="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="login()">Sign in</button>
+            </div>
+        </div>
+
+    </form>
+
+</div> <!-- /container -->
+
+</body>
+<script>
+    function login(){
+        $("#loginForm").validate({
+            submitHandler:function(form){
+                doLogin();
+            }
+        });
+    }
+    function doLogin(){
+        g_showLoading();
+
+        var inputPass = $("#password").val();
+        var salt = g_passsword_salt;
+        var str = ""+salt.charAt(0)+salt.charAt(2) + inputPass +salt.charAt(5) + salt.charAt(4);
+        var password = md5(str);
+
+        $.ajax({
+            url: "/login/do_login",
+            type: "POST",
+            data:{
+                mobile:$("#mobile").val(),
+                password: password
+            },
+            success:function(data){
+                layer.closeAll();
+                if(data.code == 0){
+                    layer.msg("成功");
+                    window.location.href="/goods/to_list";
+                }else{
+                    layer.msg(data.msg);
+                }
+            },
+            error:function(){
+                layer.closeAll();
+            }
+        });
+    }
+</script>
+</html>
